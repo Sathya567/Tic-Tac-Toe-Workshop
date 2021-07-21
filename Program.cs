@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TicTacToe
+namespace Tic_Tac_Toe_Game
 {
     class Program
     {
@@ -10,6 +10,7 @@ namespace TicTacToe
             TicTacToeGame obj = new TicTacToeGame();
             obj.gameBoard();
             obj.abilityToInput();
+            obj.showGameBoard();
         }
     }
 }
